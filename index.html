@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Shop</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #4b2e20;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .banner {
+            background: #ead8c0;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .books {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .book {
+            background: white;
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .book h3 {
+            color: #4b2e20;
+        }
+
+        button {
+            background: #4b2e20;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 My Book Shop</h1>
+        <p>Your favorite books in one place</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#books">Books</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="banner">
+        <h2>Welcome to My Book Shop</h2>
+        <p>Read More. Learn More. Grow More.</p>
+    </section>
+
+    <section id="books">
+        <h2 style="text-align:center;">Available Books</h2>
+
+        <div class="books">
+
+            <div class="book">
+                <h3>Atomic Habits</h3>
+                <p>Author: James Clear</p>
+                <p>Price: ₹399</p>
+                <button onclick="alert('Book selected!')">Buy Now</button>
+            </div>
+
+            <div class="book">
+                <h3>Rich Dad Poor Dad</h3>
+                <p>Author: Robert Kiyosaki</p>
+                <p>Price: ₹299</p>
+                <button onclick="alert('Book selected!')">Buy Now</button>
+            </div>
+
+            <div class="book">
+                <h3>Bhagavad Gita</h3>
+                <p>Author: Ved Vyasa</p>
+                <p>Price: ₹250</p>
+                <button onclick="alert('Book selected!')">Buy Now</button>
+            </div>
+
+            <div class="book">
+                <h3>The Alchemist</h3>
+                <p>Author: Paulo Coelho</p>
+                <p>Price: ₹350</p>
+                <button onclick="alert('Book selected!')">Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" style="text-align:center; padding:30px;">
+        <h2>Contact Us</h2>
+        <p>Email: mybookshop@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Book Shop</p>
+    </footer>
+
+</body>
+</html>
